@@ -1,2 +1,19 @@
-# HackHub
-GHW October 2024 Project
+# 🧐 Project Philosophy
+
+> TBA 
+
+# 👨‍💻 Tech Stack
+
+> TBA
+
+# ✍️ Contributing
+
+> TBA
+
+# 🌟 Spread the word!
+
+> TBA
+
+# ⚠️ License
+
+> TBA
