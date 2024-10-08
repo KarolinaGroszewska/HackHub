@@ -43,7 +43,7 @@ If you would like to contribute code, please follow these steps:
 Before submitting your contribution, please test your code to ensure it works as intended. Include any necessary tests with your pull request.
 
 ## Join Our Community
-Engage with other contributors and community members in our [discussion forum](#) or join us on [Discord](#). We’d love to hear your thoughts and ideas!
+Engage with other contributors and community members in our [discussion forum](https://github.com/KarolinaGroszewska/HackHub/discussions). We’d love to hear your thoughts and ideas!
 
 ## License
 By contributing to HackHub, you agree that your contributions will be licensed under the MIT License.
