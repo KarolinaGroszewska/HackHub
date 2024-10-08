@@ -4,7 +4,7 @@ HackHub is a project developed by the hacking community, for the hacking communi
 
 # 👨‍💻 Tech Stack
 
-> TBA
+HackHub is made using Flutter
 
 # ✍️ Contributing
 
