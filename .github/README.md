@@ -1,6 +1,6 @@
 # 🧐 Project Philosophy
 
-> TBA 
+HackHub is a project developed by the hacking community, for the hacking community! We spent time crafting it over at GHW: Open Source in October 2024 and now get a chance to see it grow and expand as the community contributes to it. We thank everyone for all of their love and support!
 
 # 👨‍💻 Tech Stack
 
