@@ -4,7 +4,7 @@ HackHub is a project developed by the hacking community, for the hacking communi
 
 # 👨‍💻 Tech Stack
 
-HackHub is made using Flutter
+HackHub is built using Flutter, with primary testing on iOS. HackHub is available on iOS, Android, and Web by default.
 
 # ✍️ Contributing
 
