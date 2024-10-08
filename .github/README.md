@@ -16,5 +16,5 @@ Help us grow our project! Share HackHub with your friends and followers, and let
 
 # ⚠️ License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/KarolinaGroszewska/HackHub/blob/main/LICENSE) for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/KarolinaGroszewska/HackHub?tab=MIT-1-ov-file) for details.
 
