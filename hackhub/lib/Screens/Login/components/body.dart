@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hackhub/Screens/Login/login_screen.dart';
-import 'package:hackhub/Screens/Welcome/components/background.dart';
+import 'package:hackhub/Screens/Login/components/background.dart';
 import 'package:hackhub/constants.dart';
 
 class Body extends StatelessWidget {
@@ -15,32 +14,13 @@ class Body extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text("Welcome to HackHub",
+            const Text("Login",
                 style: TextStyle(fontWeight: FontWeight.bold)),
             SizedBox(height: size.height * 0.02),
             SvgPicture.asset(
-              "assets/images/home.svg",
+              "assets/images/login.svg",
               height: size.height * 0.45,
             ),
-            SizedBox(height: size.height * 0.02),
-            RoundedButton(
-              text: "Login",
-              press: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) {
-                    return const LoginScreen();
-                  },
-                  ),
-                );
-                },
-            ),
-            RoundedButton(
-              text: "Get Started",
-              press: () {},
-              color: primaryLightColor,
-              textColor: Colors.black,
-            )
           ],
         ),
       )
