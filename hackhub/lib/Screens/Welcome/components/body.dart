@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:hackhub/Screens/Login/login_screen.dart';
+import 'package:hackhub/Screens/Signup/signup_screen.dart';
 import 'package:hackhub/Screens/Welcome/components/background.dart';
 import 'package:hackhub/components/rounded_button.dart';
 import 'package:hackhub/constants.dart';
@@ -38,7 +39,15 @@ class Body extends StatelessWidget {
             ),
             RoundedButton(
               text: "Get Started",
-              press: () {},
+              press: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) {
+                    return const SignupScreen();
+                  },
+                  ),
+                );
+              },
               color: primaryLightColor,
               textColor: Colors.black,
             )

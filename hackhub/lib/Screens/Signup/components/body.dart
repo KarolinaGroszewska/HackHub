@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hackhub/Screens/Signup/signup_screen.dart';
-import 'package:hackhub/Screens/Login/components/background.dart';
+import 'package:hackhub/Screens/Login/login_screen.dart';
+import 'package:hackhub/Screens/Signup/components/background.dart';
 import 'package:hackhub/components/rounded_button.dart';
 import 'package:hackhub/components/rounded_input_field.dart';
 import 'package:hackhub/components/rounded_password_field.dart';
@@ -18,10 +18,10 @@ class Body extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          const Text("Login", style: TextStyle(fontWeight: FontWeight.bold)),
+          const Text("Sign Up", style: TextStyle(fontWeight: FontWeight.bold)),
           SizedBox(height: size.height * 0.02),
           SvgPicture.asset(
-            "assets/images/login.svg",
+            "assets/images/signup.svg",
             height: size.height * 0.45,
           ),
           RoundedInputField(
@@ -32,14 +32,14 @@ class Body extends StatelessWidget {
             onChanged: (value) {},
           ),
           RoundedButton(
-            text: "Login", press: () {}
+            text: "Sign Up", press: () {}
           ),
           SizedBox(height: size.height * 0.02),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               const Text(
-              "Don't have an account? ",
+              "Already have an account? ",
               style: TextStyle(color: primaryColor),
               ),
               GestureDetector(
@@ -48,13 +48,13 @@ class Body extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                       builder: (context) {
-                        return const SignupScreen();
+                        return const LoginScreen();
                       },
                     ),
                   );
                 },
                 child: const Text(
-                  "Sign Up ", 
+                  "Login ", 
                   style: TextStyle(color: primaryColor, fontWeight: FontWeight.bold),
                   ),
               ),
